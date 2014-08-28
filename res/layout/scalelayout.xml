@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/m2f" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@android:color/white"
+        android:text="@string/ScaleTextView" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ScaleOkButton"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:text="A+" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:text="A" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:text="A-" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:text="B+" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:text="B" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:text="B-" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:text="C+" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:text="C" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:text="C-" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:text="D+" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:text="D" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:text="D-" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:text="F" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout1"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignTop="@+id/linearLayout1"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/AplowEdi"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="numberDecimal"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/ALowEdi"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="numberDecimal"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/AmLowEdi"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="numberDecimal"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/BpowEdi"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="numberDecimal"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/BlowEdi"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="numberDecimal"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/BmlowEdi"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="numberDecimal"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/CplowEdi"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="numberDecimal"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/ClowEdi"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="numberDecimal"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/CmlowEdi"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="numberDecimal"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/DplowEdi"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="numberDecimal"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/DlowEdi"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="numberDecimal"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/DmlowEdi"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="numberDecimal"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/FlowEdi"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="numberDecimal"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignTop="@+id/linearLayout2"
+        android:layout_toRightOf="@+id/linearLayout2"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/ApHighEdi"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="numberDecimal"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/AHighEdi"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="numberDecimal"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/AmHighEdi"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="numberDecimal"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/BpHighEdi"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="numberDecimal"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/BHighEdi"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="numberDecimal"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/BmHighEdi"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="numberDecimal"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/CpHighEdi"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="numberDecimal"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/CHighEdi"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="numberDecimal"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/CmHighEdi"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="numberDecimal"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/DpHighEdi"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="numberDecimal"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/DHighEdi"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="numberDecimal"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/DmHighEdi"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="numberDecimal"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/FHighEdi"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="numberDecimal"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ScalecancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/textView4"
+        android:text="@string/OK_btnS" />
+
+    <Button
+        android:id="@+id/ScaleSaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout3"
+        android:layout_alignParentBottom="true"
+        android:text="@string/save_btnS" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_marginRight="74dp"
+        android:text="@string/RangeS"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="30dp"
+        android:text="@string/GradeinLetterS"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

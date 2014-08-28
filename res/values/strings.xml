@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FinalGradeCalc</string>
+    <string name="action_settings">Settings</string>
+    <string name="Title_mainS">Final Grade Calculator</string>
+    <string name="CGTextViewS">Current Grade in the class</string>
+    <string name="FCTextViewS">Final exam coefficient</string>
+    <string name="DGTextViewS">Desired grade in the class</string>
+    <string name="DetailsBtnS">Details</string>
+    <string name="ScaleBtnS">Scale</string>
+    <string name="CalcBtnS">Calculate Required Grade in the Final</string>
+    <string name="percentSigneS">%</string>
+    <string name="spinnerChoice">Percent Or Letter Grade</string>
+    <string-array name="percentOrLetter">
+        <item>%</item>
+        <item>Letter Grade</item>
+    </string-array>
+    <string name="DtailCGs">The "Current Grade in the class" is the overall grade that you hold at this moment in the class. You have the option betwwen a value in percentage or as a letter grade.</string>
+    <string name="DtailFCs">The "Final coefficient" is the weight of the final usually given in your sylabus in percentage.</string>
+    <string name="DtailDGs">The "Desired Grade in the class" is the grade that you want to obtain in the class. You have the option between a value in percentage or as a letter Grade.</string>
+    <string name="OK_btnS">OK</string>
+    <string name="GradeinLetterS"> Letter Grade</string>
+    <string name="RangeS">Range</string>
+
+    <string name="ScaleTextView">You can change the Scale of grading (if your sylabus scale is different)</string>
+    <string name="cancel_btnS">Cancel</string>
+    <string name="save_btnS">Save</string>
+    
+    
+</resources>
